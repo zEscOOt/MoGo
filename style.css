@@ -1,0 +1,126 @@
+body {
+    margin: 0px;
+}
+
+#bg {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(./Images/Eagle-bg.jpg);
+}
+
+h1 {
+    font-family: Montserrat;
+    color: white;
+    margin: 0px;
+    position: absolute;
+    top: 15px;
+    left: 20%;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin-top: 0px;
+    right: 20%;
+    position: absolute;
+    top: 20px;
+}
+
+.nav li {
+    display: inline-block;
+    font-family: Montserrat;
+    color: white;
+    margin-left: 40px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+img {
+    margin-left: 40px;
+    background: none;
+}
+
+a:hover {
+    color: #fce38a;
+    border-bottom: 3px solid #fce38a;
+    padding-bottom: 10px;
+}
+
+h2 {
+    width: 100%;
+    color: white;
+    font-family: Kaushan Script;
+    font-size: 4.5em;
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#wel {
+    width: 100%;
+    color: white;
+    font-family: Montserrat;
+    font-size: 8em;
+    position: absolute;
+    left: 0%;
+    top: 280px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#line {
+    background-color: white;
+    width: 5%;
+    height: 3px;
+    position: absolute;
+    left: 47%;
+    z-index: 2;
+    top: 620px;
+}
+
+#more {
+    color: white;
+    font-size: 1em;
+    position: absolute;
+    text-align: center;
+    top: 640px;
+    padding: 10px 25px;
+    border: white solid 3px;
+    left: 45.3%;
+}
+
+.bar {
+    list-style-type: none;
+    margin-top: 0px;
+    right: 18%;
+    position: absolute;
+    top: 870px;
+}
+
+.bar li {
+    display: inline-block;
+    font-family: Montserrat;
+    color: white;
+    margin-left: auto;
+    font-size: 1em;
+    font-weight: bold;
+    width: 270px;
+    border-top: 5px solid;
+    margin-right: 30px;
+    opacity: 0.5;
+}
+
+.bar li:hover {
+    opacity: 1;
+}
+
+li p {
+    display: inline-block;
+    font-size: larger;
+}
+
+.class {
+    font-size: 3em;
+    font-size: larger;
+}
