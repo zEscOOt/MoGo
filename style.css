@@ -1,5 +1,7 @@
-body {
+body, html {
     margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 #bg {
@@ -7,6 +9,7 @@ body {
     height: 100vh;
     background-size: cover;
     background-image: url(./Images/Eagle-bg.jpg);
+    overflow-y: hidden;
 }
 
 h1 {
@@ -16,6 +19,7 @@ h1 {
     position: absolute;
     top: 15px;
     left: 20%;
+    text-align: center;
 }
 
 ul.nav {
@@ -71,10 +75,10 @@ h2 {
 
 #line {
     background-color: white;
-    width: 5%;
+    width: 4%;
     height: 3px;
     position: absolute;
-    left: 47%;
+    left: 48.5%;
     z-index: 2;
     top: 620px;
 }
@@ -87,7 +91,7 @@ h2 {
     top: 640px;
     padding: 10px 25px;
     border: white solid 3px;
-    left: 45.3%;
+    left: 46.3%;
 }
 
 .bar {
@@ -96,6 +100,7 @@ h2 {
     right: 18%;
     position: absolute;
     top: 870px;
+    margin-bottom: 0px;
 }
 
 .bar li {
@@ -123,4 +128,40 @@ li p {
 .class {
     font-size: 3em;
     font-size: larger;
+}
+
+.aclock {
+    height: 750px;
+    width: 100vw;
+    margin: 0px;
+    overflow-y: hidden;
+}
+
+.aclock h2 {
+    width: 100%;
+    color: black;
+    font-family: Kaushan Script;
+    font-size: 1.5em;
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.aclock h1 {
+    font-family: Montserrat;
+    width: 100%;
+    color: black;
+    margin: 0px;
+    text-align: center;
+    top: 20px;
+    left: 0px;
+    position: relative;
+}
+
+.clock {
+    height: 270px;
+    width: 100vw;
+    margin: 0px;
+    overflow-y: hidden;
+    background-color: rgb(149, 225, 211);
 }
