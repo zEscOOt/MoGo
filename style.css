@@ -159,9 +159,33 @@ li p {
 }
 
 .clock {
-    height: 270px;
+    height: 250px;
     width: 100vw;
     margin: 0px;
+    margin-top: 60px;
     overflow-y: hidden;
     background-color: rgb(149, 225, 211);
+}
+
+#latin {
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 50px;
+    font-size: 1.2em;
+    font-family: Roboto;
+}
+
+#one {
+    position: relative;
+    margin-left: 300px;
+    height: 250px;
+    width:  380px;
+}
+
+#three {
+    margin-right: 300px;
+}
+
+.yes {
+    margin-top: 80px;
 }
