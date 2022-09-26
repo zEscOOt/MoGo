@@ -61,6 +61,10 @@ h2 {
     margin-bottom: 100px;
 }
 
+#yes {
+    color: white;
+}
+
 #wel {
     width: 100%;
     color: white;
@@ -200,8 +204,8 @@ li p {
     color: white;
     font-family: Montserrat;
     font-weight: bold;
-    padding: 110px 70px;
-    padding-bottom: 10px;
+    padding: 100px 70px;
+    padding-bottom: 60px;
     border-right: rgb(255, 255, 255, 0.3) solid 3px;
     list-style-type: none;
     line-height: 50px;
@@ -209,13 +213,40 @@ li p {
 }
 
 .clock li:nth-of-type(1) {
-    margin-left: 12%;
+    margin-left: 8%;
     border-left: rgb(255, 255, 255, 0.3) solid 3px;
-    
+    line-height: 25px;
+    padding-top: 100px;
 } 
 
 .clock p {
     margin: 0%;
     font-size: medium;
     padding: 0%;
+    width: 150px;
+}
+
+#work {
+    height: 700px;
+}
+
+#work h1, h2 {
+    position: relative;
+    color: black;
+    left: auto;
+    font-size: 2.5em;
+}
+
+#work h2 {
+    top: 50px;
+    font-size: 2.0em;
+    margin-bottom: 60px;
+}
+
+.first {
+	float: left;
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	top: -70px;
 }
