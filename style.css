@@ -250,3 +250,27 @@ li p {
 	position: absolute;
 	top: -70px;
 }
+
+#list li {
+    display: inline-block;
+    margin-left: 9%;
+    font-size: larger;
+    padding: 0px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+}
+
+#list p {
+    font-size: large;
+    text-align: right;
+    width: 365px;
+    opacity: 0.5;
+    font-family: Roboto;
+    text-transform: none;
+}
+
+#list img {
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: 80px;
+}
