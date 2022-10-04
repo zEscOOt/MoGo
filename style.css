@@ -327,3 +327,55 @@ hr {
     font-family: Roboto;
     opacity: 0.7;
 }
+
+#service img {
+    margin-left: 15%;
+    margin-right: 2%;
+    margin-top: 50px;
+    display: inline;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown button {
+    position: absolute;
+    top: 4050px;
+    margin-left: 48%;
+    width: 33%;
+    height: 30px;
+    text-align: left;
+    padding: 30px 10px;
+    background-color: white;
+    border: solid 1px;
+    border-color: lightgrey;
+}
+
+.dropdown img {
+    position: absolute;
+    bottom: 13px
+}
+
+.dropdown button p {
+    position: absolute;
+    bottom: 3.5px;
+    left: 10%;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: larger;
+    font-family: Montserrat;
+}
+
+#myDropdown div{
+    margin: 0px;
+    width: 30%;
+    display: inline-block;
+}
+
+#myDropdown p {
+    overflow: auto;
+    width: 30%;
+    margin: 0px;
+    display: inline-block;
+}
