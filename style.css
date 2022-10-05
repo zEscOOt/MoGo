@@ -342,7 +342,6 @@ hr {
 .dropdown button {
     position: absolute;
     top: 4050px;
-    margin-left: 48%;
     width: 33%;
     height: 30px;
     text-align: left;
@@ -357,6 +356,11 @@ hr {
     bottom: 13px
 }
 
+.drop img {
+    position: relative;
+    bottom: 13px
+}
+
 .dropdown button p {
     position: absolute;
     bottom: 3.5px;
@@ -367,6 +371,10 @@ hr {
     font-family: Montserrat;
 }
 
+.dropdown button:hover {
+    background-color: rgb(240, 234, 234);
+}
+
 #myDropdown div{
     margin: 0px;
     width: 30%;
@@ -374,8 +382,41 @@ hr {
 }
 
 #myDropdown p {
+    font-size: large;
     overflow: auto;
     width: 30%;
+    height: 150px;
     margin: 0px;
+    display: inline-block;
+    position: absolute;
+    top: 4110.5px;
+    padding-left: 20px;
+    padding-right: 34px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 27px;
+    border: 1px solid lightgray;
+}
+
+#myDropdown p::-webkit-scrollbar {
+    width: 7px;
+}
+
+#myDropdown p::-webkit-scrollbar-track {
+    background: #c8c6c6bb;
+    border-radius: 30px;
+  }
+
+#myDropdown p::-webkit-scrollbar-thumb {
+    background: #42cbf5;
+    border-radius: 30px;
+    max-height: 1px;
+  }
+
+#myDropdown p::-webkit-scrollbar-thumb:hover {
+    background: #4275f5;
+  }
+
+#myDropdown p:hover {
     display: inline-block;
 }
