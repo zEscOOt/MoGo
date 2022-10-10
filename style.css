@@ -440,3 +440,23 @@ hr {
     left: -70px;
     top: -35px;
 }
+
+#JonDoe {
+    height: 300px;
+    margin: 0%;
+    background-color: #f8f8f8;
+}
+
+#JonDoe div {
+    position: relative;
+    width: 75%;
+    height: 80%;
+    background-color: wheat;
+    margin: auto;
+    top: 32px;
+}
+
+#jon {
+    position: inherit;
+    top: 50%;
+}
