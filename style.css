@@ -448,15 +448,61 @@ hr {
 }
 
 #JonDoe div {
+    
     position: relative;
     width: 75%;
     height: 80%;
-    background-color: wheat;
     margin: auto;
     top: 32px;
 }
 
 #jon {
     position: inherit;
+    display: inline-block;
+    top: 0%;
+}
+
+#jon2 {
+    display: inline-block;
+    position: inherit;
+    top: 20%;
+    margin-left: 70px;
+}
+
+#jon3 {
+    display: inline-block;
+    position: inherit;
+    width: 60%;
+    line-height: 35px;
+    font-size: 24px;
+    margin-left: 50px;
+    top: -15px;
+    font-family: Roboto;
+    opacity: 0.5;
+    color: black;
+}
+
+#jon4 {
+    position: inherit;
+    margin-left: 23%;
+    top: -18%;
+    width: 4.5%;
+    background-color: rgb(244, 81, 81);
+    border: 0px;
+}
+
+#doe {
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    left: 28%;
+    font-size: x-large;
+    font-family: Kaushan Script;
+}
+
+#jon5 {
+    transform: rotate(180deg);
+    position: absolute;
     top: 50%;
+    right: 10%;
 }
