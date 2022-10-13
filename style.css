@@ -582,3 +582,18 @@ hr {
 #team2 h4:nth-of-type(3) {
     margin-left: 23.5%;
 }
+
+#layer25 {
+    height: 240px;
+    background-color: #f8f8f8;
+}
+
+#layer25 img {
+    margin-left: 18%;
+    margin-right: 15%;
+    margin-top: 3%;
+}
+
+#gallery {
+    height: 1200px;
+}
