@@ -634,16 +634,29 @@ hr {
     margin: 0%;
 }
 
+#JonDoe1 {
+    height: 440px;
+    margin: 0%;
+}
+
+#JonDoe1 div {
+    position: relative;
+    width: 75%;
+    height: 80%;
+    margin: auto;
+    top: 32px;
+}
+
 #ear {
     position: inherit;
     display: inline-block;
-    top: -28%;
+    top: -5.2%;
 }
 
 #ear2 {
     display: inline-block;
     position: inherit;
-    top: 10%;
+    top: 20%;
     margin-left: 70px;
 }
 
@@ -654,7 +667,7 @@ hr {
     line-height: 35px;
     font-size: 24px;
     margin-left: 50px;
-    top: -55px;
+    top: -15px;
     font-family: Roboto;
     opacity: 0.5;
     color: black;
@@ -663,7 +676,7 @@ hr {
 #ear4 {
     position: inherit;
     margin-left: 28%;
-    top: -30%;
+    top: -8%;
     width: 4.5%;
     background-color: rgb(244, 81, 81);
     border: 0px;
@@ -672,7 +685,7 @@ hr {
 #jdoe {
     display: inline-block;
     position: absolute;
-    top: 67%;
+    top: 58%;
     left: 33%;
     font-size: x-large;
     font-family: Kaushan Script;
@@ -683,4 +696,78 @@ hr {
     position: absolute;
     top: 50%;
     right: 10%;
+}
+
+#clients {
+    height: 830px;
+    background-image: url(./Images/Rectangle\ 22.png);
+}
+
+#gam {
+    margin-bottom: 65px;
+}
+
+#clients .line h2 {
+    font-weight: lighter;
+    top: 90px;
+}
+
+#clients .line h3 {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 3em;
+    position: relative;
+}
+
+#clients .pic div {
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 70px;
+    position: relative;
+    left: 20%;
+}
+
+#clients .pic h3 {
+    font-size: large;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0%;
+    width: 43%;
+    display: inline-block;
+    top: -75px;
+    text-align: left;
+    left: 10px;
+}
+
+#clients .pic h4 {
+    font-size: medium;
+    font-family: Roboto;
+    margin: 0%;
+    width: 43%;
+    font-style: italic;
+    display: inline-block;
+    top: 50px;
+    text-align: left;
+    left: 170px;
+    position: absolute;
+}
+
+#clients .pic hr {
+    margin-top: -25px;
+    margin-left: 170px;
+}
+
+#clients .pic p {
+    width: 65%;
+    font-family: Roboto;
+    opacity: 0.5;
+    font-weight: bold;
+    margin-left: 170px;
+    line-height: 25px;
+}
+
+#stories {
+    height: 500px;
+    margin: 0%;
 }
