@@ -768,6 +768,70 @@ hr {
 }
 
 #stories {
-    height: 500px;
+    height: 770px;
     margin: 0%;
+}
+
+#gaming h2 {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2em;
+    top: 60px;
+    margin-bottom: 70px;
+}
+
+#gaming h3 {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+div.e {
+    position: relative;
+    margin-top: 50px;
+    display: inline-block;
+    width: 22%;
+    left: 315px;
+    margin-left: 10px;
+}
+
+div.e img {
+    margin: 0%; 
+}
+
+div.e h3 {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-bottom: 0%;
+}
+
+div.e p {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-family: Montserrat;
+    opacity: 0.6;
+    font-size: small;
+    line-height: 25px;
+    padding-bottom: 20px;
+    border-bottom: rgb(149, 225, 211) 2px solid;
+}
+
+div.e h4 {
+   font-family: Roboto;
+   font-style: italic; 
+   display: inline-block;
+   font-weight: 300;
+   margin-left: 10px;
+}
+
+#map {
+    height: 200px;
+    background-image: url(./Images/Rectangle\ 27.png);
 }
