@@ -835,3 +835,114 @@ div.e h4 {
     height: 200px;
     background-image: url(./Images/Rectangle\ 27.png);
 }
+
+#end {
+    height: 500px;
+    margin: 0%;
+    background-color: grey;
+}
+
+#end2 {
+    width: 65%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+#end2 div {
+    height: 100%;
+    display: inline-block;
+}
+
+#end2 div:nth-of-type(1) {
+    width: 40%;
+}
+
+#mojo h2 {
+    position: relative;
+    font-family: Montserrat;
+    color: lightgrey;
+    font-size: 4em;
+    margin: 0%;
+    text-align: left;
+    top: 70px;
+}
+
+#mojo p {
+    font-size: medium;
+    margin-top: 100px;
+    color: lightgrey;
+    font-family: Roboto;
+    line-height: 25px;
+}
+
+#mojo h4, h5 {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+#mojo h4 {
+    font-size: 1.5em;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+#mojo h5 {
+    font-family: Montserrat;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+#mojo hr {
+    width: 100%;
+    background-color: lightgray;
+    height: 0px;
+    margin-top: 0%;
+}
+
+#mojo p:nth-of-type(2) {
+    margin-top: 15px;
+    font-style: italic;
+    display: inline-block;
+}
+
+#mojo img {
+    margin-left: 20px;
+}
+
+#mojo input[type="text"] {
+    font-family: Roboto;
+    font-style: italic;
+    padding: 10px 90px 10px 15px;
+    color: rgba(211, 211, 211, 0.792);
+    border: lightgray 1px solid;
+    border-right: 0px;
+    margin: 0%;
+}
+
+#mojo input[type="submit"] {
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 50px 10px 47px;
+    color: white;
+    background-color: rgb(144, 207, 204);
+    border: lightgray 1px solid;
+    border-right: 0px;
+    margin: 0%;
+    position: absolute;
+}
+
+#mojo input[type="text"]:focus {
+    outline: none;
+}
+
+#mojo input[type="submit"]:hover {
+    background-color: rgb(118, 177, 174);
+}
+
+#mojo input[type="submit"]:active {
+    border: inset 1px rgb(118, 177, 174);
+}
