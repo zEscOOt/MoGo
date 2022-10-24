@@ -854,7 +854,9 @@ div.e h4 {
     display: inline-block;
 }
 
-#end2 div:nth-of-type(1) {
+#mojo {
+    display: inline-block;
+    overflow: none;
     width: 40%;
 }
 
@@ -932,7 +934,9 @@ div.e h4 {
     border: lightgray 1px solid;
     border-right: 0px;
     margin: 0%;
-    position: absolute;
+    position: relative;
+    overflow: hidden;
+    left: -5px;
 }
 
 #mojo input[type="text"]:focus {
@@ -946,3 +950,34 @@ div.e h4 {
 #mojo input[type="submit"]:active {
     border: inset 1px rgb(118, 177, 174);
 }
+
+#end3 {
+    vertical-align: top;
+    width: 30%;
+    display: inline-block;
+    background-color: grey;
+    height: auto;
+}
+
+#end3 h3 {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 500;
+    margin-top: 80px; 
+    font-size: 1.25em;  
+}
+
+#end3 img {
+    margin-left: 0px;
+    margin-right: 20px;
+    position: relative;
+}
+
+#end3 h3, h4 {
+ width: 50%;
+ display: inline-block;
+}
+
+#end3 div {
+    height: auto;
+} 
