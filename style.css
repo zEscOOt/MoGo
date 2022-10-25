@@ -825,6 +825,7 @@ div.e p {
 
 div.e h4 {
    font-family: Roboto;
+   width: 60px;
    font-style: italic; 
    display: inline-block;
    font-weight: 300;
@@ -839,11 +840,10 @@ div.e h4 {
 #end {
     height: 500px;
     margin: 0%;
-    background-color: grey;
 }
 
 #end2 {
-    width: 65%;
+    width: 80%;
     height: 100%;
     margin: auto;
     background-color: white;
@@ -952,17 +952,17 @@ div.e h4 {
 }
 
 #end3 {
+    margin-left: 40px;
     vertical-align: top;
     width: 30%;
     display: inline-block;
-    background-color: grey;
     height: auto;
+    overflow: hidden;
 }
 
 #end3 h3 {
     text-transform: uppercase;
     font-family: Montserrat;
-    font-weight: 500;
     margin-top: 80px; 
     font-size: 1.25em;  
 }
@@ -981,3 +981,105 @@ div.e h4 {
 #end3 div {
     height: auto;
 } 
+
+#end31 h3 {
+    width: 60%;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    text-align: left;
+    font-size: 0.9em;
+    overflow: hidden;
+}
+
+#end31 h4 {
+    position: relative;
+    margin-top: 0px;
+    top: -30px;
+    left: 140px;
+    font-family: Roboto;
+    opacity: 0.7;
+    font-style: italic;
+    overflow: hidden;
+}
+
+#end32 h3 {
+    width: 60%;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    text-align: left;
+    font-size: 0.9em;
+    overflow: hidden;
+}
+
+#end32 h4 {
+    position: relative;
+    margin-top: 0px;
+    top: -30px;
+    left: 140px;
+    font-family: Roboto;
+    opacity: 0.7;
+    font-style: italic;
+    overflow: hidden;
+}
+
+#end33 h3 {
+    width: 60%;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    text-align: left;
+    font-size: 0.9em;
+    overflow: hidden;
+}
+
+#end33 h4 {
+    position: relative;
+    margin-top: 0px;
+    top: -30px;
+    left: 140px;
+    font-family: Roboto;
+    opacity: 0.7;
+    font-style: italic;
+    overflow: hidden;
+}
+
+#art {
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#art h3 {
+    margin-top: 80px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+#art img {
+    margin-left: 0%;
+}
+
+#art h4 {
+    font-family: Roboto;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+#finale {
+    width: 79.9%;
+    border-top: lightgrey 1px solid;
+    text-align: center;
+    margin: auto;
+}
+
+#finale p {
+    font-family: Montserrat;
+}
+
+#finale a {
+    color: orange;
+}
+
+#finale a:hover {
+    border: 0px
+}
